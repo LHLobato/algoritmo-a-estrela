@@ -9,14 +9,14 @@ This is a memory intensive approach, with a huge footprint, even though we mitig
 # Running the code
 We have sampled some experiments and their results on `assets/`, but if you insist, you can run the code with any python package manager. I do prefer `uv` and will be using it for the example. So, run:
 
-```sh
--- syncing the .venv
+syncing the .venv
+```bash
 uv sync
+```
 
+running the code
+```bash
 uv run main.py 
-
--- you can run it with verbose flag to see some data accross your screen
-
 uv run main.py -v
 
 ```
